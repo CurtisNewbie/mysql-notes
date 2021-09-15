@@ -152,9 +152,9 @@ The contents of log buffer are periodically flushed to disk. If the log buffer i
 Configure how log buffer are written and flushed to disk using **innodb_flush_log_at_trx_commit**:
 
 - 0 
-    - default, logs are written and flushed once per second
+    - logs are written and flushed once per second
 - 1
-    - logs are written and flushed at each transaction commit
+    - default, logs are written and flushed at each transaction commit
 - 2
     - logs are written and flushed once per second and at each transaction commit
 
